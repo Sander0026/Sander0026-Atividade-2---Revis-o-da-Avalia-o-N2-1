@@ -1,0 +1,32 @@
+{
+    "Galpoes":[
+        {
+            "Longitud": 3,
+            "Latitude": 6,
+            "id": 1,
+            "nome": "Galpão Central",
+            "localizacao": "Rua Principal, 123",
+            "capacidade": 500,
+            "status": "Disponível"
+        },
+        {
+            "Longitud": 4,
+            "Latitude": 7,
+            "id": 2,
+            "nome": "Galpão Norte",
+            "localizacao": "Avenida Secundária, 456",
+            "capacidade": 300,
+            "status": "Em Manutenção"
+        },
+        {
+            "Longitud": 2,
+            "Latitude": 5,
+            "id": 3,
+            "nome": "Galpão Sul",
+            "localizacao": "Estrada Velha, 789",
+            "capacidade": 400,
+            "status": "Disponível"
+        }
+        
+    ]
+}

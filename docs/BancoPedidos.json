@@ -1,0 +1,42 @@
+{
+    "Pedidos": [
+        {
+            "Longitud": 2,
+            "Latitude": 3,
+            "PedidoID": 1,
+            "Cliente": "João Silva",
+            "Data": "2024-06-15",
+            "Itens": [
+                {
+                    "ProdutoID": 101,
+                    "NomeProduto": "Camiseta",
+                    "Quantidade": 2,
+                    "PrecoUnitario": 29.90
+                },
+                {
+                    "ProdutoID": 202,
+                    "NomeProduto": "Calça Jeans",
+                    "Quantidade": 1,
+                    "PrecoUnitario": 99.90
+                }
+            ],
+            "TotalPedido": 159.70
+        },
+        {
+            "Longitud": 4,
+            "Latitude": 5,
+            "PedidoID": 2,
+            "Cliente": "Maria Oliveira",
+            "Data": "2024-06-16",
+            "Itens": [
+                {
+                    "ProdutoID": 303,
+                    "NomeProduto": "Tênis Esportivo",
+                    "Quantidade": 1,
+                    "PrecoUnitario": 199.90
+                }
+            ],
+            "TotalPedido": 199.90
+        }
+    ]
+}
