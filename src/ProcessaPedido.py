@@ -1,4 +1,5 @@
 import json
+import os
 
 def ProcessaPedido(Fila):
     print("Iniciando o processamento de pedidos...")
@@ -12,8 +13,8 @@ def ProcessaPedido(Fila):
             pedido['Status'] = 'PROCESSADO'
             print(f"Pedido {pedido['PedidoID']} processado com sucesso.")
 
-            # Caminho para o arquivo JSON
-            json_path = 'e:\\Sistemas_Web\\Sander0026-Atividade-2---Revis-o-da-Avalia-o-N2-1\\docs\\BancoPedidos.json'
+            # Constrói o caminho relativo para o arquivo JSON
+            json_path = os.path.join(os.path.dirname(__file__), '..', 'docs', 'BancoPedidos.json')
             
             # Abre o arquivo para leitura e carrega os dados
             with open(json_path, 'r', encoding='utf-8') as arq:
