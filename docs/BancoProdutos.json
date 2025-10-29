@@ -1,0 +1,31 @@
+{
+    "Produtos": [
+        {
+            "ProdutoID": "1",
+            "Latitude": "2",
+            "Longitude": "1",
+            "Nome": "Notebook",
+            "Descricao": "Notebook de alta performance",
+            "Preco": 3500.00,
+            "Estoque": 15
+        },
+        {
+            "ProdutoID": "2",
+            "Latitude": "6",
+            "Longitude": "5",
+            "Nome": "Smartphone",
+            "Descricao": "Smartphone com câmera avançada",
+            "Preco": 2500.00,
+            "Estoque": 30
+        },
+        {
+            "ProdutoID": "3",
+            "Latitude": "4",
+            "Longitude": "3",
+            "Nome": "Tablet",
+            "Descricao": "Tablet leve e portátil",
+            "Preco": 1500.00,
+            "Estoque": 20
+        }
+    ]
+}

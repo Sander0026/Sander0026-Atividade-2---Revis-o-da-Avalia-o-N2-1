@@ -6,6 +6,7 @@ faker = Faker('pt_BR')
 def GeraPedidos():
     return{
             "PedidoID": str(uuid.uuid4()),
+            "ProdutoID": faker.random_int(min=1, max=100),
             "Status": "Pendente",
             "Cliente": faker.name(),
             "Data": faker.date(),
