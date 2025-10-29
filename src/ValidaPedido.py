@@ -1,13 +1,7 @@
 from .FilaPedidos import FilaPedidos
 
 def ValidaPedido(evento):
-   
-    print(f"Validando pedido: {evento}")
-    pedido = evento
         
-    pedido_id = evento.get('PedidoID', 'DESCONHECIDO')
-    print(f"Validando pedido: {pedido_id}")
-    
     pedido = evento
     try:  
         if ('PedidoID' in pedido and
