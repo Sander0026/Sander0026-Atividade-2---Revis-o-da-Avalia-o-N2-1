@@ -27,7 +27,7 @@ def ProcessaPedido(Fila):
                 json.dump(BancoPedidos, arq, indent=4, ensure_ascii=False)
 
             return {"status": 200, 
-                    "mensagem": "Pedido processado com sucesso e salvo no JSON."}
+                    "mensagem": "Pedido processado com sucesso."}
         
     except KeyError:
         return {"status": 500, 
