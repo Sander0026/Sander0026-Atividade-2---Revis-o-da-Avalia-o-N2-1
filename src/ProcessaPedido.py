@@ -9,22 +9,22 @@ def ProcessaPedido(Fila):
     try:
         if ('PedidoID' in pedido and 
             'Latitude' in pedido and 
-            'Longitud' in pedido):
+            'Longitude' in pedido):
             pedido['Status'] = 'PROCESSADO'
             print(f"Pedido {pedido['PedidoID']} processado com sucesso.")
 
             # Constrói o caminho relativo para o arquivo JSON
-            json_path = os.path.join(os.path.dirname(__file__), '..', 'docs', 'BancoPedidos.json')
+            caminhoBancoPedidos = os.path.join(os.path.dirname(__file__), '..', 'docs', 'BancoPedidos.json')
             
             # Abre o arquivo para leitura e carrega os dados
-            with open(json_path, 'r', encoding='utf-8') as arq:
+            with open(caminhoBancoPedidos, 'r', encoding='utf-8') as arq:
                 BancoPedidos = json.load(arq)
            
             # Adiciona o novo pedido processado à lista
             BancoPedidos["PedidosProcessados"].append(pedido)
 
             # Abre o arquivo para escrita e salva os dados atualizados
-            with open(json_path, 'w', encoding='utf-8') as arq:
+            with open(caminhoBancoPedidos, 'w', encoding='utf-8') as arq:
                 json.dump(BancoPedidos, arq, indent=4, ensure_ascii=False)
 
             return {"status": 200, 
@@ -33,4 +33,3 @@ def ProcessaPedido(Fila):
     except KeyError:
         return {"status": 500, 
                 "mensagem": "Preencha todos os campos!"}
-

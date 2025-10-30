@@ -1,31 +1,304 @@
 {
     "Produtos": [
         {
-            "ProdutoID": "1",
-            "Latitude": "2",
-            "Longitude": "1",
+            "Latitude": 2,
+            "Longitude": 1,
+            "ProdutoID": 1,
+            "GalpoesID": [1,2],
             "Nome": "Notebook",
             "Descricao": "Notebook de alta performance",
             "Preco": 3500.00,
             "Estoque": 15
         },
         {
-            "ProdutoID": "2",
-            "Latitude": "6",
-            "Longitude": "5",
+            "Latitude": 6,
+            "Longitude": 5,
+            "ProdutoID": 2,
+            "GalpoesID": [3],
             "Nome": "Smartphone",
             "Descricao": "Smartphone com câmera avançada",
             "Preco": 2500.00,
             "Estoque": 30
         },
         {
-            "ProdutoID": "3",
-            "Latitude": "4",
-            "Longitude": "3",
+            "Latitude": 4,
+            "Longitude": 3,
+            "ProdutoID": 3,
+            "GalpoesID": [1,2],
             "Nome": "Tablet",
             "Descricao": "Tablet leve e portátil",
             "Preco": 1500.00,
             "Estoque": 20
+        },
+        {
+            "Latitude": 7,
+            "Longitude": 8,
+            "ProdutoID": 4,
+            "GalpoesID": [2,3],
+            "Nome": "Monitor",
+            "Descricao": "Monitor 4K UHD",
+            "Preco": 144.00,
+            "Estoque": 20
+        },
+        {
+            "Latitude": 9,
+            "Longitude": 10,
+            "ProdutoID": 5,
+            "GalpoesID": [1],
+            "Nome": "Impressora",
+            "Descricao": "Impressora multifuncional",
+            "Preco": 800.00,
+            "Estoque": 10
+        },
+        {
+            "Latitude": 11,
+            "Longitude": 12,
+            "ProdutoID": 6,
+            "GalpoesID": [3],
+            "Nome": "Câmera Digital",
+            "Descricao": "Câmera com lente intercambiável",
+            "Preco": 1200.00,
+            "Estoque": 8
+        },
+        {
+            "Latitude": 13,
+            "Longitude": 14,
+            "ProdutoID": 7,
+            "GalpoesID": [1,3],
+            "Nome": "Fone de Ouvido",
+            "Descricao": "Fone de ouvido com cancelamento de ruído",
+            "Preco": 600.00,
+            "Estoque": 25
+        },
+        {
+            "Latitude": 15,
+            "Longitude": 16,
+            "ProdutoID": 8,
+            "GalpoesID": [2],
+            "Nome": "Smartwatch",
+            "Descricao": "Smartwatch com monitoramento de saúde",
+            "Preco": 900.00,
+            "Estoque": 18
+        },
+        {
+            "Latitude": 17,
+            "Longitude": 18,
+            "ProdutoID": 9,
+            "GalpoesID": [1,2,3],
+            "Nome": "Teclado Mecânico",
+            "Descricao": "Teclado mecânico para gamers",
+            "Preco": 400.00,
+            "Estoque": 22
+        },
+        {
+            "Latitude": 19,
+            "Longitude": 20,
+            "ProdutoID": 10,
+            "GalpoesID": [2,3],
+            "Nome": "Mouse Sem Fio",
+            "Descricao": "Mouse sem fio ergonômico",
+            "Preco": 150.00,
+            "Estoque": 35
+        },
+        {
+            "Latitude": 21,
+            "Longitude": 22,
+            "ProdutoID": 11,
+            "GalpoesID": [1],
+            "Nome": "Webcam HD",
+            "Descricao": "Webcam com resolução Full HD",
+            "Preco": 200.00,
+            "Estoque": 12
+        },
+        {
+            "Latitude": 23,
+            "Longitude": 24,
+            "ProdutoID": 12,
+            "GalpoesID": [3],
+            "Nome": "Roteador Wi-Fi",
+            "Descricao": "Roteador com alta velocidade de conexão",
+            "Preco": 300.00,
+            "Estoque": 28
+        },
+        {
+            "Latitude": 25,
+            "Longitude": 26,
+            "ProdutoID": 13,
+            "GalpoesID": [1,2],
+            "Nome": "HD Externo",
+            "Descricao": "Disco rígido externo de 1TB",
+            "Preco": 450.00,
+            "Estoque": 16
+        },
+        {
+            "Latitude": 27,
+            "Longitude": 28,
+            "ProdutoID": 14,
+            "GalpoesID": [2],
+            "Nome": "Pen Drive",
+            "Descricao": "Pen drive USB 64GB",
+            "Preco": 80.00,
+            "Estoque": 50
+        },
+        {
+            "Latitude": 29,
+            "Longitude": 30,
+            "ProdutoID": 15,
+            "GalpoesID": [1,3],
+            "Nome": "Caixa de Som Bluetooth",
+            "Descricao": "Caixa de som portátil com Bluetooth",
+            "Preco": 250.00,
+            "Estoque": 27
+        },
+        {
+            "Latitude": 31,
+            "Longitude": 32,
+            "ProdutoID": 16,
+            "GalpoesID": [3],
+            "Nome": "Projetor",
+            "Descricao": "Projetor portátil para apresentações",
+            "Preco": 1800.00,
+            "Estoque": 5
+        },
+        {
+            "Latitude": 33,
+            "Longitude": 34,
+            "ProdutoID": 17,
+            "GalpoesID": [1,2],
+            "Nome": "Estabilizador de Energia",
+            "Descricao": "Estabilizador para proteção de equipamentos eletrônicos",
+            "Preco": 350.00,
+            "Estoque": 14
+        },
+        {
+            "Latitude": 35,
+            "Longitude": 36,
+            "ProdutoID": 18,
+            "GalpoesID": [2,3],
+            "Nome": "Cabo HDMI",
+            "Descricao": "Cabo HDMI de alta velocidade",
+            "Preco": 60.00,
+            "Estoque": 40
+        },
+        {
+            "Latitude": 37,
+            "Longitude": 38,
+            "ProdutoID": 19,
+            "GalpoesID": [1],
+            "Nome": "Adaptador USB-C",
+            "Descricao": "Adaptador USB-C para múltiplas conexões",
+            "Preco": 120.00,
+            "Estoque": 33
+        },
+        {
+            "Latitude": 39,
+            "Longitude": 40,
+            "ProdutoID": 20,
+            "GalpoesID": [3],
+            "Nome": "Mesa Digitalizadora",
+            "Descricao": "Mesa digitalizadora para designers gráficos",
+            "Preco": 2200.00,
+            "Estoque": 7
+        },
+        {
+            "Latitude": 41,
+            "Longitude": 42,
+            "ProdutoID": 21,
+            "GalpoesID": [1,2],
+            "Nome": "Leitor de E-books",
+            "Descricao": "Leitor de e-books com tela anti-reflexo",
+            "Preco": 500.00,
+            "Estoque": 19
+        },
+        {
+            "Latitude": 43,
+            "Longitude": 44,
+            "ProdutoID": 22,
+            "GalpoesID": [2],
+            "Nome": "Docking Station",
+            "Descricao": "Docking station para laptops",
+            "Preco": 750.00,
+            "Estoque": 11
+        },
+        {
+            "Latitude": 45,
+            "Longitude": 46,
+            "ProdutoID": 23,
+            "GalpoesID": [1,3],
+            "Nome": "Cadeira Gamer",
+            "Descricao": "Cadeira ergonômica para gamers",
+            "Preco": 1300.00,
+            "Estoque": 9
+        },
+        {
+            "Latitude": 47,
+            "Longitude": 48,
+            "ProdutoID": 24,
+            "GalpoesID": [3],
+            "Nome": "Suporte para Notebook",
+            "Descricao": "Suporte ajustável para notebook",
+            "Preco": 180.00,
+            "Estoque": 29
+        },
+        {
+            "Latitude": 49,
+            "Longitude": 50,
+            "ProdutoID": 25,
+            "GalpoesID": [1,2],
+            "Nome": "Hub USB",
+            "Descricao": "Hub USB com múltiplas portas",
+            "Preco": 90.00,
+            "Estoque": 38
+        },
+        {
+            "Latitude": 51,
+            "Longitude": 52,
+            "ProdutoID": 26,
+            "GalpoesID": [2],
+            "Nome": "Microfone Condensador",
+            "Descricao": "Microfone condensador para gravações de alta qualidade",
+            "Preco": 600.00,
+            "Estoque": 13
+        },
+        {
+            "Latitude": 53,
+            "Longitude": 54,
+            "ProdutoID": 27,
+            "GalpoesID": [1,3],
+            "Nome": "Placa de Captura",
+            "Descricao": "Placa de captura para streaming de vídeo",
+            "Preco": 900.00,
+            "Estoque": 6
+        },
+        {
+            "Latitude": 55,
+            "Longitude": 56,
+            "ProdutoID": 28,
+            "GalpoesID": [3],
+            "Nome": "Filtro de Linha",
+            "Descricao": "Filtro de linha com proteção contra surtos",
+            "Preco": 70.00,
+            "Estoque": 45
+        },
+        {
+            "Latitude": 57,
+            "Longitude": 58,
+            "ProdutoID": 29,
+            "GalpoesID": [1,2],
+            "Nome": "Cabo de Rede",
+            "Descricao": "Cabo de rede CAT6",
+            "Preco": 40.00,
+            "Estoque": 55
+        },
+        {
+            "Latitude": 59,
+            "Longitude": 60,
+            "ProdutoID": 30,
+            "GalpoesID": [2,3],
+            "Nome": "Suporte para Monitor",
+            "Descricao": "Suporte ajustável para monitor",
+            "Preco": 200.00,
+            "Estoque": 21
         }
     ]
 }

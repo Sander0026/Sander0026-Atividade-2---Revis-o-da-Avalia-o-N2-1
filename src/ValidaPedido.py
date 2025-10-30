@@ -6,7 +6,7 @@ def ValidaPedido(evento):
     try:  
         if ('PedidoID' in pedido and
             'Latitude' in pedido and
-            'Longitud' in pedido):
+            'Longitude' in pedido):
 
             print(f"Pedido {pedido['PedidoID']} é VÁLIDO. Enviando para FilaPedido.")
             FilaPedidos.put(pedido)

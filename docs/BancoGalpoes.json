@@ -1,31 +1,28 @@
 {
     "Galpoes":[
         {
-            "Longitud": 3,
+            "Longitude": 3,
             "Latitude": 6,
-            "id": 1,
-            "nome": "Galpão Central",
+            "GalpaoID": 1,
+            "Nome": "Galpão Central",
             "localizacao": "Rua Principal, 123",
-            "capacidade": 500,
-            "status": "Disponível"
+            "capacidade": 500
         },
         {
-            "Longitud": 4,
+            "Longitude": 4,
             "Latitude": 7,
-            "id": 2,
-            "nome": "Galpão Norte",
+            "GalpaoID": 2,
+            "Nome": "Galpão Norte",
             "localizacao": "Avenida Secundária, 456",
-            "capacidade": 300,
-            "status": "Em Manutenção"
+            "capacidade": 300
         },
         {
-            "Longitud": 2,
+            "Longitude": 2,
             "Latitude": 5,
-            "id": 3,
-            "nome": "Galpão Sul",
+            "GalpaoID": 3,
+            "Nome": "Galpão Sul",
             "localizacao": "Estrada Velha, 789",
-            "capacidade": 400,
-            "status": "Disponível"
+            "capacidade": 400
         }
         
     ]
