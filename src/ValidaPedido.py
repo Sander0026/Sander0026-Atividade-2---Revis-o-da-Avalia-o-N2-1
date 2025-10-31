@@ -1,4 +1,4 @@
-from .FilaPedidos import FilaPedidos
+from filas.FilaPedidos import FilaPedidos
 
 def ValidaPedido(evento):
         
