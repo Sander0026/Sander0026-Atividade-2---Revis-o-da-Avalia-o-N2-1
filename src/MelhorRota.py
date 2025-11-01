@@ -2,7 +2,7 @@ import json
 import os
 from .CalculaDistancia import CalculaDistancia
 import math
-from .FilaGalpoes import FilaGalpoes
+from filas.FilaGalpoes import FilaGalpoes
 
 def MelhorRota():
     print("Iniciando cálculo da melhor rota de entrega...")
@@ -70,7 +70,7 @@ def MelhorRota():
         # Retorna o resultado
         if melhor_galpao:
             print(f"\nMelhor rota encontrada! O pedido deve sair do Galpão {melhor_galpao['GalpaoID']} ({melhor_galpao['Nome']}).")
-            FilaGalpoes.put(melhor_galpao)
+            FilaGalpoes.put({"melhor_galpao": melhor_galpao, "pedidoID": pedido_atual["PedidoID"]})
             return {"status": 200, 
                 "mensagem": "Pedido valido e adicionado à fila."}
         
